@@ -1,0 +1,16 @@
+<div class="popup requires-no-scroll">
+    <div class="editForm">
+        <span><button (click)="closePopup()">&#10060;</button></span>
+      <form [formGroup]="editForm" (ngSubmit)="edit(subLeaf)">
+        <div class="contentTitle">
+            <input formControlName="title"type="textarea" placeholder="Title" id="userTitleEdit" >
+        </div>
+        <div class="contentNote">
+            <textarea formControlName="content" type="textarea" placeholder="Note" id="userContentEdit" ></textarea>
+        </div>
+        <div class="noteSubmit">
+            <button type="submit" mat-stroked-button color="primary">Done</button>
+        </div>
+    </form>
+    </div>
+  </div>

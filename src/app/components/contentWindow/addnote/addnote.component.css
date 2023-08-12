@@ -1,0 +1,52 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.box{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-expansion-panel{
+    width: 60vw;
+    height: fit-content;
+}
+
+mat-panel-title{
+    font-size: 1.5rem;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.contentTitle{
+    margin: 2%;
+}
+
+.contentTitle input{
+    font-size: 2rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.contentNote{
+    margin: 2%;
+}
+
+.contentNote input{
+    font-size: 1.2rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.noteSubmit{
+    display: flex;
+    justify-content: flex-end;
+}

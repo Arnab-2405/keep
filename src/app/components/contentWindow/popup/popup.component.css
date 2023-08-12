@@ -1,0 +1,100 @@
+body:has(.requires-no-scroll) {
+    overflow: hidden;
+}
+
+.popup{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.233);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+
+form{
+    width: 100%;
+    height: fit-content;
+}
+
+.editForm{
+    width: 60vw;
+    height: 50vh;
+    background-color: white;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+    overflow :scroll;
+}
+
+textarea{
+    height: 18vh;
+    width: 100%;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    overflow-y: visible;
+    resize: none;
+}
+
+.contentTitle{
+    margin: 5%;
+    height: fit-content;
+}
+
+.contentTitle input{
+    font-size: 2rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.contentNote{
+    height: fit-content;
+    margin: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.contentNote textarea{
+    font-size: 1.2rem;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.noteSubmit{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+button:hover{
+    cursor:grab;
+}
+
+span{
+    display: flex;
+    justify-content: flex-end;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}

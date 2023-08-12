@@ -1,0 +1,41 @@
+button{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.edit{
+    height: fit-content;
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+mat-card{
+    background-color: #e4e4e4;
+    border-radius: 1rem;
+    padding: 3%;
+}
+
+mat-card-header{
+    padding-top: 0;
+    word-wrap: break-word;
+}
+
+mat-card-content{
+    word-wrap: break-word;
+}
+
+div{
+    overflow: hidden;
+}
+button:hover{
+    cursor:grab;
+}
+
+mat-card:hover{
+    box-shadow: 3px 3px 15px rgb(172 172 172);
+}

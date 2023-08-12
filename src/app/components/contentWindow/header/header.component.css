@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.image{
+    height: 8vh;
+    object-fit: contain;
+    flex-basis: 5%;
+}
+
+mat-toolbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e4e4e4;
+    font-family: 'Rajdhani', sans-serif;
+    box-shadow: 0px 0.5px #dadce0;
+}
+
+button{
+    align-items: flex-end;
+}

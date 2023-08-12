@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="box">
+        <mat-accordion>
+            <mat-expansion-panel hideToggle >
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Take a note...
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <form [formGroup]="AddNoteForm" (ngSubmit)="addNote()">
+                    <div class="contentTitle">
+                        <input formControlName="title" type="input" placeholder="Title" id="userTitle">
+                    </div>
+                    <div class="contentNote">
+                        <input formControlName="content" type="textarea" placeholder="Note" id="userContent">
+                    </div>
+                    <div class="noteSubmit">
+                        <button type="submit" mat-stroked-button color="primary">Done</button>
+                    </div>
+                </form>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>
